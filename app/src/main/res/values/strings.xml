@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LEARN ENGLISH</string>
+    <string name="widget_title_prefix">Từ hôm nay:</string>
+    <string name="widget_tap_hint">Chạm để học ngay</string>
+</resources>

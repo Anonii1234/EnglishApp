@@ -1,0 +1,46 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Giao diện">
+        <ListPreference
+            app:defaultValue="system"
+            app:entries="@array/theme_entries"
+            app:entryValues="@array/theme_values"
+            app:key="theme"
+            app:title="Chủ đề ứng dụng"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Học tập">
+        <ListPreference
+            app:defaultValue="en_vi"
+            app:entries="@array/mode_entries"
+            app:entryValues="@array/mode_values"
+            app:key="default_mode"
+            app:title="Chế độ học mặc định"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:key="notifications"
+            app:summary="Nhận thông báo khi đến giờ ôn tập"
+            app:title="Thông báo ôn tập" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Ứng dụng">
+        <Preference
+            app:key="rate_app"
+            app:title="Đánh giá ứng dụng"
+            app:summary="Ủng hộ chúng tôi trên Play Store" />
+
+        <Preference
+            app:key="feedback"
+            app:title="Gửi phản hồi"
+            app:summary="Góp ý để ứng dụng hoàn thiện hơn" />
+
+        <Preference
+            app:key="tutorial"
+            app:title="Hướng dẫn"
+            app:summary="Xem cách sử dụng ứng dụng" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

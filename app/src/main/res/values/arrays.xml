@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="theme_entries">
+        <item>Sáng</item>
+        <item>Tối</item>
+        <item>Theo hệ thống</item>
+    </string-array>
+    <string-array name="theme_values">
+        <item>light</item>
+        <item>dark</item>
+        <item>system</item>
+    </string-array>
+
+    <string-array name="mode_entries">
+        <item>Anh → Việt</item>
+        <item>Việt → Anh</item>
+    </string-array>
+    <string-array name="mode_values">
+        <item>en_vi</item>
+        <item>vi_en</item>
+    </string-array>
+</resources>

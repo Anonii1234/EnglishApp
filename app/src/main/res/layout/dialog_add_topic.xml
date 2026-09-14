@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/etTopicName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên chủ đề (để trống sẽ lấy ngày giờ)"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/etVocabularyText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="top"
+            android:hint="word - meaning - example\n(mỗi dòng một từ)"
+            android:inputType="textMultiLine"
+            android:minLines="5" />
+
+        <TextView
+            android:id="@+id/tvValidCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Số từ hợp lệ: 0"
+            android:textColor="?attr/colorPrimary" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCopyPrompt"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Lấy câu lệnh mẫu" />
+
+            <Button
+                android:id="@+id/btnSeeExample"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Xem ví dụ" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSaveTopic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Lưu chủ đề" />
+
+    </LinearLayout>
+</ScrollView>

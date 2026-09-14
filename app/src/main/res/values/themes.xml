@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LEARNENGLISH" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:windowBackground">#F5F5F5</item>
+        <item name="cardBackgroundColor">#FFFFFF</item>
+        <item name="mainTextColor">#000000</item>
+        <item name="secondaryTextColor">#757575</item>
+    </style>
+
+    <style name="Theme.LEARNENGLISH" parent="Base.Theme.LEARNENGLISH" />
+</resources>
